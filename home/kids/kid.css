@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.container {
+    border: 1px aliceblue solid;
+    box-shadow: 10px 10px 10px 20px  rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    max-width: 100%; /* Ensure container does not exceed viewport width */
+    margin: 0 auto; /* Center container */
+}
+
+.hero-banner img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: block;
+}
+
+.text-display {
+    background-color: rgb(133, 133, 137);
+    margin: 10px;
+    text-align: center;
+}
+
+.cohero-container {
+    /* margin: 10px auto; */
+    margin: 20px;
+    max-width: 800px;
+}
+
+.cohero-container img {
+    width: 100%;
+    display: block;
+}
+.cohero-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.co-hero:last-child{
+    /* background-color: burlywood; */
+    margin: 50px;
+}
+.co-hero:first-child img{
+    width: 700px;
+    box-shadow: 10px 10px 20px 10px #000;
+}
+.co-hero:last-child h2{
+    font-size: 60px;
+}
+.co-hero:last-child button {
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: 60px;
+    background-color: transparent;
+}
+.co-hero:last-child button:hover{
+    background-color: rgb(125, 131, 131);
+    color: #000;
+}
+.co-hero:hover {
+    transform: scale(1.05);
+}
+
+.girls-container h2 {
+    text-align: center;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.card img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 4px solid snow;
+}
+.card .redirection {
+    position: relative;
+}
+.card .redirection:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 1s ease-in-out;
+    transform: scale(1.02);
+}
+.card .redirection:hover button {
+    visibility: visible;
+    transition: transform 0.3 ease-in-out;
+}
+.card .redirection button{
+    position: absolute;
+    left: 95px;
+    top: 180px;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    visibility: hidden;
+    cursor: pointer;
+}

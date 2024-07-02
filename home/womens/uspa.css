@@ -1,0 +1,46 @@
+.container {
+    margin: 50px;
+}
+.con-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three columns */
+    gap: 20px; /* Adjust the gap between images as needed */
+    padding: 20px;
+    text-align: center;  
+}
+
+.con-img-img img {
+    width: 100%; /* Make images responsive */
+    /* padding: 10px; Adjust padding */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    display: block;
+    transition: transform 0.3s; /* Smooth hover effect */
+    /* border: 1px solid black; */
+}
+
+.con-img-img img:hover {
+    transform: scale(1.1); 
+   
+}
+.con-img .h3-con{
+    color: rgb(101, 158, 101);
+    font-size: 25px;
+}
+.con-img .h5-text{
+    color:rgb(101, 99, 99);
+    font-size: 20px;
+}
+.con-img .h5-offer{
+    color:rgb(212, 133, 23);
+}
+.size-btn{
+    background-color:rgb(63, 63, 131);
+    width: 200px;
+    padding: 10px;
+    color: aliceblue;
+}
+.size-btn:hover{
+    background-color: transparent;
+    border: 1px solid burlywood;
+    color: black;
+}

@@ -1,0 +1,76 @@
+.levis{
+    margin: 50px;
+}
+.levis-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between images as needed */
+    max-width: 960px; /* Optional: to constrain the width of the grid */
+    margin: 10px auto; /* Center the grid */
+}
+
+.item {
+    text-align: center; /* Center-aligns the content within each grid item */
+}
+.levis-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.levis-img img:hover {
+    transform: scale(1.1); /* Zoom effect */
+}
+
+
+.size-options {
+    margin-top: 10px; /* Space between the image and the radio buttons */
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between radio buttons */
+}
+
+.size-options label {
+    display: flex;
+    align-items: center;
+}
+
+.size-options input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+.size-btn,
+.price-btn {
+    margin-top: 10px; /* Space between the radio buttons and the price button */
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    display: block;
+    width: 80%; /* Ensure the buttons are the same width */
+    margin: 10px auto; /* Center the buttons */
+}
+
+.size-btn:hover,
+.price-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+.item .h5-offer{
+    color: rgb(70, 188, 70);
+}
+.item .h5-text{
+   color: rgb(146, 144, 144);
+}
+.item .h3-con{
+    color: darkgoldenrod;
+}
+.item .size-btn{
+    background-color:#31455a;
+}
+.item .size-btn:hover{
+    background-color: transparent;
+    color: #31455a;
+    border: 1px solid burlywood;
+}

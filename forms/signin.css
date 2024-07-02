@@ -1,0 +1,44 @@
+.header{
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+   
+}
+.header .fb{
+    border: 2px blue solid;
+    margin: 10px;
+    padding: 8px;
+}
+.fb:hover{
+    background-color:#a3c8ec;
+
+}
+.header .fb img{
+    width: 30px;
+}
+.header .go{
+     border: 2px red solid;
+     margin: 10px;
+      padding: 8px;
+}
+.header .go img{
+    width: 30px;
+}
+.go:hover{
+    background-color: #e8a736a3;
+}
+.header .continue-btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .continue-btn .bo{
+    background-color: burlywood;
+    padding: 10px;
+}
+.header .continue-btn .bo:hover{
+    background-color: antiquewhite;
+  
+}
